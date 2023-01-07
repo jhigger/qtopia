@@ -1,8 +1,13 @@
+import Head from "next/head";
 import Image from "next/image";
 
 const ImagineVersePage = () => {
 	return (
 		<main className="gradient min-h-screen pt-32 font-montserrat text-white">
+			<Head>
+				<title>Qtopia | ImagineVerse</title>
+			</Head>
+
 			<div className="container mx-auto w-full">
 				<h1 className="my-4 text-center text-5xl font-bold uppercase">
 					Welcome to Imagineverse

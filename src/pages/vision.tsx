@@ -1,8 +1,13 @@
+import Head from "next/head";
 import Image from "next/image";
 
 const VisionPage = () => {
 	return (
 		<div className="bg-[url('/assets/BG_1920X1080.jpg')] bg-contain">
+			<Head>
+				<title>Qtopia | Vision</title>
+			</Head>
+
 			<main className="container mx-auto w-full py-32">
 				<section className="px-6 py-6 md:px-12 md:py-12">
 					<div

@@ -11,7 +11,7 @@ const Navbar = () => {
 	const navItems = [
 		{ name: "Home", link: "/" },
 		{ name: "Vision", link: "/vision" },
-		{ name: "Imagine-verse", link: "/imagine-verse" },
+		{ name: "Imagineverse", link: "/imagineverse" },
 		{ name: "Contact", link: "/contact" },
 	];
 
