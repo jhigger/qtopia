@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	html {
+		@apply text-[#2f2e2e];
+	}
+}
+
+@layer utilities {
+	.mask-image {
+		-webkit-mask-image: -webkit-gradient(
+			linear,
+			top,
+			bottom,
+			from(rgba(0, 0, 0, 1)),
+			to(rgba(0, 0, 0, 0))
+		);
+		mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	}
+}
