@@ -12,11 +12,6 @@ const Navbar = () => {
 		{ name: "Home", link: "/" },
 		{ name: "Vision", link: "/vision" },
 		{ name: "Imagine-verse", link: "/imagine-verse" },
-		{
-			name: "Whitepaper",
-			link: "https://about.qtopia.io/overview/qtopia-vision",
-			newTab: true,
-		},
 		{ name: "Contact", link: "/contact" },
 	];
 
@@ -38,7 +33,6 @@ const Navbar = () => {
 										<NavLink
 											name={item.name}
 											link={item.link}
-											newTab={item?.newTab}
 										/>
 									</li>
 								);
@@ -62,7 +56,6 @@ const Navbar = () => {
 											<NavLink
 												name={item.name}
 												link={item.link}
-												newTab={item?.newTab}
 												pathName={router.pathname}
 											/>
 										</li>
@@ -104,12 +97,10 @@ const Logo = () => {
 const NavLink = ({
 	name,
 	link,
-	newTab,
 	pathName,
 }: {
 	name: string;
 	link: string;
-	newTab?: boolean;
 	pathName?: string;
 }) => {
 	return (
@@ -118,7 +109,6 @@ const NavLink = ({
 			className={`rounded-full px-4 py-2 text-base tracking-wide transition-all hover:bg-[#14a8e8] hover:text-white xl:text-lg ${
 				pathName === link ? "bg-white text-[#2f2e2e]" : ""
 			}`}
-			target={newTab ? "_blank" : "_self"}
 			rel="noopener noreferrer"
 		>
 			{name}

@@ -19,4 +19,16 @@
 		);
 		mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 	}
+
+	.clip-triangle-right {
+		clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+	}
+
+	.clip-triangle-left {
+		clip-path: polygon(0 0, 0% 100%, 100% 0);
+	}
+
+	.gradient {
+		background: linear-gradient(to right, #14a8e8, #6d8cf8);
+	}
 }

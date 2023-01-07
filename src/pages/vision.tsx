@@ -3,7 +3,7 @@ import Image from "next/image";
 const VisionPage = () => {
 	return (
 		<div className="bg-[url('/assets/BG_1920X1080.jpg')] bg-contain">
-			<main className="container mx-auto w-full pt-16">
+			<main className="container mx-auto w-full py-32">
 				<section className="px-6 py-6 md:px-12 md:py-12">
 					<div
 						className={
@@ -39,6 +39,11 @@ const VisionPage = () => {
 						</div>
 					</div>
 				</section>
+				{/* <section className="px-6 py-6 md:px-12 md:py-12">
+					<h2 className="text-4xl font-semibold uppercase text-white">
+						Lore Content
+					</h2>
+				</section> */}
 			</main>
 		</div>
 	);
