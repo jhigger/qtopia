@@ -7,7 +7,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
 	const router = useRouter();
 	return (
 		<>
-			{router.pathname !== "/comingsoon" && <Navbar />}
+			{/* {router.pathname !== "/comingsoon" && <Navbar />} */}
 			<Component {...pageProps} />
 		</>
 	);

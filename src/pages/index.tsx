@@ -1,26 +1,30 @@
-/* eslint-disable @next/next/no-img-element */
-import type { NextPage } from "next";
-import Head from "next/head";
-import HeroImage from "../components/HeroImage";
-import HeroTitle from "../components/HeroTitle";
-import TheCollections from "../components/TheCollections";
-
-const Home: NextPage = () => {
+const ComingSoonPage = () => {
 	return (
-		<>
-			<Head>
-				<title>Qtopia</title>
-			</Head>
-
-			<div className="min-h-screen bg-[url('/assets/BG_1920X1080.jpg')] bg-contain bg-center">
-				<HeroImage />
-				<main className="container mx-auto w-full">
-					<HeroTitle />
-					<TheCollections />
-				</main>
+		<main className="relative h-screen w-screen">
+			<video
+				className="h-full w-full object-cover object-center"
+				width="100%"
+				height="100%"
+				autoPlay
+				loop
+				muted
+				playsInline
+			>
+				<source src="/assets/imagine480.webm" type="video/webm" />
+				<source
+					src="https://d20wbi5cgoftj2.cloudfront.net/qtopiavideos/imagine.mp4"
+					type="video/mp4"
+				/>
+			</video>
+			<div className="absolute top-0 left-0 h-full w-full bg-gray-900 bg-opacity-50 bg-clip-padding backdrop-blur-sm backdrop-filter">
+				<div className="flex h-full flex-col items-center justify-center p-4">
+					<h1 className="py-4 text-center font-montserrat text-6xl font-bold text-white">
+						Coming Soon
+					</h1>
+				</div>
 			</div>
-		</>
+		</main>
 	);
 };
 
-export default Home;
+export default ComingSoonPage;
