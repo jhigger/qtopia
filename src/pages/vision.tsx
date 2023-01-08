@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const VisionPage = () => {
 	return (
-		<div className="bg-[url('/assets/BG_1920X1080.jpg')] bg-contain">
+		<div className="bg-[url('/assets/BG_1920X1080.jpg')] bg-contain font-montserrat">
 			<Head>
 				<title>Qtopia | Vision</title>
 			</Head>
