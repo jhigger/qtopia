@@ -20,13 +20,13 @@ const CTA = () => {
 	];
 
 	return (
-		<div className="w-full max-w-screen-xl p-6 text-white">
-			<ul className="flex flex-col items-center gap-4 md:flex-row">
+		<div className="w-full max-w-screen-xl p-4 text-[#2f2e2e]">
+			<ul className="mt-4 flex flex-col items-center justify-center gap-4 md:flex-row">
 				{iconLinks.map((item, idx) => {
 					return (
 						<li
 							key={idx}
-							className="z-10 w-max rounded-full border transition duration-300 ease-in-out hover:scale-110 hover:bg-white hover:text-[#2f2e2e]"
+							className="z-10 w-max rounded-full border transition duration-300 ease-in-out hover:scale-110 hover:bg-[#14a8e8] hover:text-white"
 						>
 							<a
 								href={item.link}

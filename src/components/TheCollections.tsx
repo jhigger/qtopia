@@ -15,7 +15,7 @@ const TheCollections = () => {
 	];
 
 	return (
-		<section className="mt-16 px-6 py-6 md:px-12 md:py-12 xl:mt-48">
+		<section className="px-6 py-6 md:px-12 md:py-12">
 			{collections.map((item, idx) => {
 				return (
 					<CollectionItem
