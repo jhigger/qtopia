@@ -13,14 +13,14 @@ const Navbar = () => {
 		{ name: "Vision", link: "/vision" },
 		{ name: "Imagineverse", link: "/imagineverse" },
 		{ name: "Lore", link: "/lore" },
+		{ name: "About", link: "/about" },
 		// { name: "Contact", link: "/contact" },
-		{ name: "Whitepaper", link: "https://whitepaper.qtopia.io/" },
 	];
 
 	return (
 		<nav className="container sticky top-0 z-20 mx-auto w-full">
 			<div className="absolute mt-6 w-full">
-				<div className="flex flex-row justify-between gap-2 px-4">
+				<div className="flex flex-row justify-between gap-2 px-4 md:items-center">
 					<Logo />
 					<div
 						className={`rounded-3xl bg-[#2f2e2e] p-2 ${
@@ -63,6 +63,16 @@ const Navbar = () => {
 										</li>
 									);
 								})}
+								<li>
+									<Link
+										href="https://whitepaper.qtopia.io/"
+										className={`gradient rounded-full px-4 py-2 text-sm tracking-wide transition-all hover:bg-[#14a8e8] hover:text-white xl:text-base`}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Whitepaper
+									</Link>
+								</li>
 							</ul>
 						</NavItemContainer>
 					</div>
@@ -108,10 +118,9 @@ const NavLink = ({
 	return (
 		<Link
 			href={link}
-			className={`rounded-full px-4 py-2 text-base tracking-wide transition-all hover:bg-[#14a8e8] hover:text-white xl:text-lg ${
+			className={`rounded-full px-4 py-2 text-sm tracking-wide transition-all hover:bg-[#14a8e8] hover:text-white xl:text-base ${
 				pathName === link ? "bg-white text-[#2f2e2e]" : ""
 			}`}
-			rel="noopener noreferrer"
 		>
 			{name}
 		</Link>
