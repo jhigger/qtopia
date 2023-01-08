@@ -13,6 +13,10 @@ const HeroImage = () => {
 					playsInline
 				>
 					<source src="/assets/splash.webm" type="video/webm" />
+					<source
+						src="https://d20wbi5cgoftj2.cloudfront.net/qtopiavideos/splash.mp4"
+						type="video/mp4"
+					/>
 				</video>
 			</div>
 		</div>

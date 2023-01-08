@@ -23,6 +23,10 @@ const ImagineVersePage = () => {
 				playsInline
 			>
 				<source src="/assets/imagine.webm" type="video/webm" />
+				<source
+					src="https://d20wbi5cgoftj2.cloudfront.net/qtopiavideos/imagine.mp4"
+					type="video/mp4"
+				/>
 			</video>
 			<section className="relative overflow-visible">
 				<div className="container mx-auto h-[44rem] w-full">
