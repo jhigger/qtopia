@@ -12,7 +12,7 @@ const ComingSoonPage = () => {
 			>
 				<source src="/assets/imagine480.webm" type="video/webm" />
 			</video>
-			<div className="absolute top-0 left-0 h-full w-full bg-gray-900 bg-opacity-5 bg-clip-padding backdrop-blur-md backdrop-filter">
+			<div className="absolute top-0 left-0 h-full w-full bg-gray-900 bg-opacity-50 bg-clip-padding backdrop-blur-sm backdrop-filter">
 				<div className="flex h-full flex-col items-center justify-center p-4">
 					<h1 className="py-4 text-center font-montserrat text-6xl font-bold leading-5 text-white">
 						Coming Soon
