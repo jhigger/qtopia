@@ -26,7 +26,7 @@ const Navbar = () => {
 						}`}
 					>
 						{/* mobile */}
-						<ul className="items-center justify-center text-white md:flex">
+						<ul className="flex flex-col items-center justify-center gap-4 p-4 text-white">
 							{navItems.map((item, idx) => {
 								return (
 									<li key={idx}>
@@ -39,9 +39,9 @@ const Navbar = () => {
 							})}
 						</ul>
 					</div>
-					<div className="h-8 w-8  rounded-full bg-[#14a8e8] sm:hidden">
+					<div className="h-16 w-16  rounded-full bg-[#2f2e2e] sm:hidden">
 						<button
-							className="flex transform items-center justify-center p-2 text-white transition duration-300 ease-in-out hover:scale-105 hover:text-gray-900 focus:outline-none"
+							className="flex transform items-center justify-center p-2 text-white transition duration-300 ease-in-out hover:scale-105 hover:text-[#14a8e8] focus:outline-none"
 							onClick={() => setState(!state)}
 						>
 							{state ? <CloseIcon /> : <MenuIcon />}
@@ -76,7 +76,7 @@ const NavItemContainer = ({
 	children: JSX.Element | string | null;
 }) => {
 	return (
-		<div className="h-full rounded-full border-2 border-white border-opacity-20 bg-black bg-opacity-50 py-4 text-white">
+		<div className="h-16 rounded-full border-2 border-white border-opacity-20 bg-black bg-opacity-50 py-4 text-white">
 			{children}
 		</div>
 	);
@@ -86,7 +86,7 @@ const Logo = () => {
 	return (
 		<Link href="/">
 			<img
-				className="h-auto w-16 md:w-24"
+				className="h-16 w-auto md:h-24"
 				src="/assets/logo.png"
 				alt="Qtopia Logo"
 			/>
