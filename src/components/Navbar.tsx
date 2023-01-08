@@ -13,6 +13,7 @@ const Navbar = () => {
 		{ name: "Vision", link: "/vision" },
 		{ name: "Imagineverse", link: "/imagineverse" },
 		// { name: "Contact", link: "/contact" },
+		{ name: "Whitepaper", link: "https://whitepaper.qtopia.io/" },
 	];
 
 	return (
