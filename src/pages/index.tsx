@@ -3,6 +3,7 @@ const ComingSoonPage = () => {
 		<main className="relative h-screen w-screen">
 			<video
 				className="h-full w-full object-cover object-center"
+				poster="./assets/imaginverse_banner.jpg"
 				width="100%"
 				height="100%"
 				autoPlay
