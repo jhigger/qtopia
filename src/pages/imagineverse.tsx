@@ -40,7 +40,7 @@ const ImagineVersePage = () => {
 							<div className="flex items-center justify-center">
 								<button className="rounded py-2 px-8 text-xl uppercase ring-2 ring-white hover:bg-white hover:text-[#14a8e8]">
 									<a
-										href="https://about.qtopia.io/the-imagine-verse/the-imagine-verse"
+										href="https://whitepaper.qtopia.io/the-imagine-verse/the-imagine-verse"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
@@ -84,7 +84,7 @@ const ImagineVersePage = () => {
 							<div className="flex items-center justify-center">
 								<button className="rounded py-2 px-8 text-xl uppercase text-[#14a8e8] ring-2 ring-[#14a8e8] hover:bg-[#14a8e8] hover:text-white">
 									<a
-										href="https://about.qtopia.io/the-imagine-verse/doors-of-oppurtunities"
+										href="https://whitepaper.qtopia.io/the-imagine-verse/doors-of-oppurtunities"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
@@ -110,7 +110,7 @@ const ImagineVersePage = () => {
 							<div className="flex items-center justify-center">
 								<button className="rounded py-2 px-8 text-xl uppercase ring-2 ring-white hover:bg-white hover:text-[#14a8e8]">
 									<a
-										href="https://about.qtopia.io/the-imagine-verse/guild-halls"
+										href="https://whitepaper.qtopia.io/the-imagine-verse/guild-halls"
 										target="_blank"
 										rel="noopener noreferrer"
 									>

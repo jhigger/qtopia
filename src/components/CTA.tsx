@@ -4,7 +4,7 @@ const CTA = () => {
 	const iconLinks = [
 		{
 			icon: <FaBook />,
-			link: "https://about.qtopia.io/overview/qtopia-vision",
+			link: "https://whitepaper.qtopia.io/overview/qtopia-vision",
 			name: "Whitepaper",
 		},
 		{
