@@ -9,7 +9,7 @@ const VisionPage = () => {
 			</Head>
 
 			<main className="container mx-auto w-full py-32">
-				<section className="px-6 py-6 md:px-12 md:py-12">
+				{/* <section className="px-6 py-6 md:px-12 md:py-12">
 					<div
 						className={
 							"my-2 w-full rounded-3xl bg-white bg-right-bottom px-4 py-8 text-[#2f2e2e] md:rounded-[4rem] md:bg-none md:px-16 md:py-16"
@@ -43,7 +43,7 @@ const VisionPage = () => {
 							</div>
 						</div>
 					</div>
-				</section>
+				</section> */}
 
 				<div className="px-6 py-6 md:px-12 md:py-12">
 					<div
@@ -83,9 +83,9 @@ const VisionPage = () => {
 									accumulate tokens!
 								</p>
 								<div className="flex items-center justify-center">
-									<button className="rounded py-2 px-8 text-xl uppercase text-[#14a8e8] ring-2 ring-[#14a8e8] hover:bg-[#14a8e8] hover:text-white hover:ring-white">
+									<button className="rounded-full py-2 px-8 text-xl uppercase text-[#14a8e8] ring-2 ring-[#14a8e8] hover:bg-[#14a8e8] hover:text-white hover:ring-white">
 										<a
-											href="https://about.qtopia.io/game/the-game"
+											href="https://whitepaper.qtopia.io/game/the-game"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
@@ -129,9 +129,86 @@ const VisionPage = () => {
 									rewards.
 								</p>
 								<div className="flex items-center justify-center">
-									<button className="rounded py-2 px-8 text-xl uppercase text-[#14a8e8] ring-2 ring-[#14a8e8] hover:bg-[#14a8e8] hover:text-white hover:ring-white">
+									<button className="rounded-full py-2 px-8 text-xl uppercase text-[#14a8e8] ring-2 ring-[#14a8e8] hover:bg-[#14a8e8] hover:text-white hover:ring-white">
 										<a
-											href="https://about.qtopia.io/the-imagine-verse/the-grid"
+											href="https://whitepaper.qtopia.io/the-imagine-verse/the-imagine-verse"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Learn More
+										</a>
+									</button>
+								</div>
+							</div>
+						</section>
+
+						<section className="grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
+							<div className="flex flex-col gap-8 text-center">
+								<h2 className="text-lg font-bold uppercase md:text-xl lg:text-3xl">
+									Merchandise
+								</h2>
+								<p className="text-lg md:text-xl">
+									Qtopia is teaming up with NoNoPanda to
+									create a series of merchandise. NoNoPanda
+									has worked with top brands around the world
+									designing dolls, collectables, hardware,
+									stationary, emoticons and more. Holders of
+									our NFT will gain exclusive rights to
+									purchase with our token. Holders of the
+									special Genesis NFT will have access to the
+									limited Genesis edition.
+								</p>
+								<div className="flex items-center justify-center">
+									<button className="rounded-full py-2 px-8 text-xl uppercase text-[#14a8e8] ring-2 ring-[#14a8e8] hover:bg-[#14a8e8] hover:text-white hover:ring-white">
+										<a
+											href="https://whitepaper.qtopia.io/merchandise/epic-loots"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Learn More
+										</a>
+									</button>
+								</div>
+							</div>
+							<video
+								className="z-10 justify-self-end rounded-3xl"
+								width="700"
+								height="700"
+								src="https://d20wbi5cgoftj2.cloudfront.net/qtopiavideos/merchandise.mp4"
+								poster="/assets/vision/merchandise.jpg"
+								autoPlay
+								loop
+								muted
+								playsInline
+							></video>
+						</section>
+
+						<section className="grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
+							<Image
+								src={"/assets/vision/animation_series.png"}
+								alt={"underwater"}
+								width="700"
+								height="700"
+								loading="eager"
+								priority
+								className="z-10 justify-self-end rounded-3xl"
+							/>
+							<div className="flex flex-col gap-8 text-center">
+								<h2 className="text-lg font-bold uppercase md:text-xl lg:text-3xl">
+									Animation Series
+								</h2>
+								<p className="text-lg md:text-xl">
+									With an experienced leadership team from
+									DreamWorks and Tappy Yoka, we want to create
+									top-quality animated content aimed to
+									impress and entertain. NFT holders will gain
+									special rights to be involved in the content
+									creation process.
+								</p>
+								<div className="flex items-center justify-center">
+									<button className="rounded-full py-2 px-8 text-xl uppercase text-[#14a8e8] ring-2 ring-[#14a8e8] hover:bg-[#14a8e8] hover:text-white hover:ring-white">
+										<a
+											href="https://whitepaper.qtopia.io/animation-series"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
