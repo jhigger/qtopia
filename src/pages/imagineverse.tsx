@@ -35,7 +35,13 @@ const ImagineVersePage = () => {
 							</h3>
 							<div className="flex items-center justify-center">
 								<button className="rounded py-2 px-8 text-xl uppercase ring-2 ring-white hover:bg-white hover:text-[#14a8e8]">
-									See More
+									<a
+										href="https://about.qtopia.io/the-imagine-verse/the-imagine-verse"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										See More
+									</a>
 								</button>
 							</div>
 						</div>
@@ -73,13 +79,19 @@ const ImagineVersePage = () => {
 							</h3>
 							<div className="flex items-center justify-center">
 								<button className="rounded py-2 px-8 text-xl uppercase text-[#14a8e8] ring-2 ring-[#14a8e8] hover:bg-[#14a8e8] hover:text-white">
-									See More
+									<a
+										href="https://about.qtopia.io/the-imagine-verse/doors-of-oppurtunities"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										See More
+									</a>
 								</button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div className="clip-triangle-left absolute top-0 left-0 h-full w-[49vw] bg-[url('/assets/BG_1920X1080.jpg')] bg-cover bg-no-repeat" />
+				<div className="clip-triangle-left absolute top-0 left-0 h-full w-[50vw] bg-[url('/assets/BG_1920X1080.jpg')] bg-cover bg-no-repeat" />
 			</section>
 			<section className="relative">
 				<div className="container mx-auto h-[44rem] w-full">
@@ -93,7 +105,13 @@ const ImagineVersePage = () => {
 							</h3>
 							<div className="flex items-center justify-center">
 								<button className="rounded py-2 px-8 text-xl uppercase ring-2 ring-white hover:bg-white hover:text-[#14a8e8]">
-									See More
+									<a
+										href="https://about.qtopia.io/the-imagine-verse/guild-halls"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										See More
+									</a>
 								</button>
 							</div>
 						</div>
