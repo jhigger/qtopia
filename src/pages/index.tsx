@@ -1,6 +1,12 @@
+import Head from "next/head";
+
 const ComingSoonPage = () => {
 	return (
 		<main className="relative h-screen w-screen">
+			<Head>
+				<title>Qtopia | Coming Soon!</title>
+			</Head>
+
 			<video
 				className="h-full w-full object-cover object-center"
 				poster="./assets/imaginverse_banner.jpg"
@@ -20,7 +26,7 @@ const ComingSoonPage = () => {
 			<div className="absolute top-0 left-0 h-full w-full bg-gray-900 bg-opacity-50 bg-clip-padding backdrop-blur-sm backdrop-filter">
 				<div className="flex h-full flex-col items-center justify-center p-4">
 					<h1 className="py-4 text-center font-montserrat text-6xl font-bold text-white">
-						Coming Soon
+						Coming Soon!
 					</h1>
 				</div>
 			</div>
