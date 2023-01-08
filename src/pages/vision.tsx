@@ -15,7 +15,7 @@ const VisionPage = () => {
 							"my-2 w-full rounded-3xl bg-white bg-right-bottom px-4 py-8 text-[#2f2e2e] md:rounded-[4rem] md:bg-none md:px-16 md:py-16"
 						}
 					>
-						<section className="mb-16 grid grid-cols-1 place-items-center gap-8 py-4">
+						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4">
 							<h1 className="text-xl font-bold uppercase md:text-2xl lg:text-4xl">
 								Our Vision
 							</h1>
@@ -31,7 +31,7 @@ const VisionPage = () => {
 							</p>
 						</section>
 
-						<section className="grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
+						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
 							<div className="flex flex-col gap-8 text-center">
 								<h2 className="text-lg font-bold uppercase md:text-xl lg:text-3xl">
 									Play To Own Game
@@ -69,7 +69,7 @@ const VisionPage = () => {
 							/>
 						</section>
 
-						<section className="grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
+						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
 							<Image
 								src={"/assets/vision/imagineverse.jpg"}
 								alt={"imagineverse"}
@@ -106,7 +106,7 @@ const VisionPage = () => {
 							</div>
 						</section>
 
-						<section className="grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
+						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
 							<div className="flex flex-col gap-8 text-center">
 								<h2 className="text-lg font-bold uppercase md:text-xl lg:text-3xl">
 									Merchandise
