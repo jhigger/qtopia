@@ -133,18 +133,15 @@ const VisionPage = () => {
 										</a>
 									</button>
 								</div>
-							</div>
-							<video
-								className="z-10 justify-self-end rounded-3xl"
+							</div><Image
+								src={"/assets/vision/Merch.jpg"}
+								alt={"Merch"}
 								width="700"
 								height="700"
-								src="https://d20wbi5cgoftj2.cloudfront.net/qtopiavideos/merchandise.mp4"
-								poster="/assets/vision/merchandise.jpg"
-								autoPlay
-								loop
-								muted
-								playsInline
-							></video>
+								loading="eager"
+								priority
+								className="z-10 justify-self-end rounded-3xl"
+							/>
 						</section>
 
 						<section className="grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
