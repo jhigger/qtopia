@@ -133,7 +133,8 @@ const VisionPage = () => {
 										</a>
 									</button>
 								</div>
-							</div><Image
+							</div>
+							<Image
 								src={"/assets/vision/Merch.jpg"}
 								alt={"Merch"}
 								width="700"
@@ -146,8 +147,10 @@ const VisionPage = () => {
 
 						<section className="grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
 							<Image
-								src={"/assets/vision/animation_series.png"}
-								alt={"animation_series"}
+								src={
+									"/assets/vision/Phoebe-and-Dragon_flying.jpg"
+								}
+								alt={"Phoebe-and-Dragon_flying"}
 								width="700"
 								height="700"
 								loading="eager"
