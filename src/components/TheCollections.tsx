@@ -89,7 +89,7 @@ const CollectionItem = ({
 						</div>
 					)}
 				</div>
-				<div className="flex flex-col justify-between md:pr-12 xl:pr-6">
+				<div className="flex flex-col justify-around md:pr-12 xl:pr-6">
 					<div className="font-sans pb-12 text-2xl md:pb-0">
 						<div className="pb-4 text-base font-semibold uppercase md:text-2xl md:font-bold md:normal-case">
 							About the Collection

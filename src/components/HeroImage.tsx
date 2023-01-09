@@ -2,7 +2,7 @@
 const HeroImage = () => {
 	return (
 		<div className="relative w-full opacity-100">
-			<div className="w-full md:h-[32rem] xl:h-[48rem]">
+			<div className="h-full w-full">
 				<video
 					className="h-full w-full object-cover object-center"
 					width="100%"
