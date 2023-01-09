@@ -3,16 +3,11 @@ import Image from "next/image";
 
 const ImagineVersePage = () => {
 	return (
-		<main className="gradient min-h-screen pt-32 font-montserrat text-white">
+		<main className="gradient min-h-screen font-montserrat text-white">
 			<Head>
 				<title>Qtopia | ImagineVerse</title>
 			</Head>
 
-			<div className="container mx-auto w-full">
-				<h1 className="my-4 text-center text-5xl font-bold uppercase">
-					Welcome to Imagineverse
-				</h1>
-			</div>
 			<video
 				className="h-full w-full object-cover object-center"
 				width="100%"
@@ -28,6 +23,15 @@ const ImagineVersePage = () => {
 					type="video/mp4"
 				/>
 			</video>
+
+			<div className="container mx-auto -mt-14 flex w-full justify-center">
+				<div className="z-10 w-max rounded-3xl bg-white p-8 text-xl">
+					<h1 className="text-center font-montserrat text-5xl font-bold uppercase text-[#2f2e2e] ">
+						Welcome to Imagineverse
+					</h1>
+				</div>
+			</div>
+
 			<section className="relative overflow-visible">
 				<div className="container mx-auto h-[44rem] w-full">
 					<div className=" grid grid-cols-2 place-items-center py-24">
