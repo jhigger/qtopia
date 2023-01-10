@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 const AboutPage = () => {
 	return (
@@ -9,11 +10,7 @@ const AboutPage = () => {
 
 			<main className="container mx-auto w-full py-32">
 				<div className="px-6 py-6 md:px-12 md:py-12">
-					<div
-						className={
-							"my-2 w-full rounded-3xl bg-white bg-right-bottom px-4 py-8 text-[#2f2e2e] md:rounded-[4rem] md:bg-none md:px-16 md:py-16"
-						}
-					>
+					<div className="my-2 w-full rounded-3xl bg-white bg-right-bottom p-8 text-[#2f2e2e] md:rounded-[4rem] md:bg-none md:p-16">
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4">
 							<h1 className="text-xl font-bold uppercase md:text-2xl lg:text-4xl">
 								About Our Team
@@ -22,10 +19,25 @@ const AboutPage = () => {
 
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4">
 							<div className="flex flex-col gap-8 text-center">
-								<h2 className="text-lg font-bold uppercase md:text-xl lg:text-3xl">
-									Daniel Chou - Vision, Strategies, and
-									Execution.
-								</h2>
+								<div className="grid grid-cols-1 place-items-center items-center gap-8 md:grid-cols-2">
+									<Image
+										src={"/assets/about/daniel_chou.jpg"}
+										alt={"daniel_chou"}
+										width="400"
+										height="400"
+										loading="eager"
+										priority
+										className="col-span-1 rounded-3xl"
+									/>
+									<div className="col-span-1">
+										<h2 className="text-xl font-bold uppercase lg:text-3xl">
+											Daniel Chou
+										</h2>
+										<p className="text-xl font-semibold">
+											Vision, Strategies, and Execution
+										</p>
+									</div>
+								</div>
 								<p className="text-lg md:text-xl">
 									With over 15 years of experience in the
 									gaming industry, Daniel Chou has proven
@@ -53,9 +65,14 @@ const AboutPage = () => {
 
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4">
 							<div className="flex flex-col gap-8 text-center">
-								<h2 className="text-lg font-bold uppercase md:text-xl lg:text-3xl">
-									Onyx Gallegos - Head of Growth
-								</h2>
+								<div>
+									<h2 className="text-xl font-bold uppercase lg:text-3xl">
+										Onyx Gallegos
+									</h2>
+									<p className="text-xl font-semibold">
+										Head of GrowthExecution
+									</p>
+								</div>
 								<p className="text-lg md:text-xl">
 									Onyx is a web3-native entrepreneur who has
 									launched multiple sold-out NFTs, including
@@ -76,9 +93,14 @@ const AboutPage = () => {
 
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4">
 							<div className="flex flex-col gap-8 text-center">
-								<h2 className="text-lg font-bold uppercase md:text-xl lg:text-3xl">
-									The Qtopia Heroes - Studio Supported by 10+
-								</h2>
+								<div>
+									<h2 className="text-xl font-bold uppercase lg:text-3xl">
+										The Qtopia Heroes
+									</h2>
+									<p className="text-xl font-semibold">
+										Studio Supported by 10+
+									</p>
+								</div>
 								<p className="text-lg md:text-xl">
 									Our designers and developers have a wealth
 									of experience in the gaming industry, with

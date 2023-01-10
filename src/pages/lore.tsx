@@ -19,32 +19,28 @@ const LorePage = () => {
 				/>
 			</div>
 			<main className="container mx-auto w-full">
-				<section className="-mt-24 flex justify-center">
+				<section className="-mt-20 flex justify-center px-6">
 					<div className="w-max rounded-3xl bg-white py-8 px-16 text-[#2f2e2e]">
 						<div className="flex flex-col items-center gap-4 text-center font-montserrat md:text-left">
 							<h1 className="text-4xl font-bold uppercase">
 								Let there be happiness
 							</h1>
-							<p className="text-3xl">
-								...and there
-								<br />
-								was...
-							</p>
+							<p className="text-3xl">...and there was...</p>
 						</div>
 					</div>
 				</section>
 
-				<div className="px-6 py-6 md:px-12 md:py-12">
+				<div className="p-6 md:p-12">
 					<div
 						className={
-							"my-2 w-full rounded-3xl bg-white bg-right-bottom px-4 py-8 text-[#2f2e2e] md:rounded-[4rem] md:bg-none md:px-16 md:py-16"
+							"my-2 w-full rounded-3xl bg-white bg-right-bottom px-8 py-8 text-[#2f2e2e] md:rounded-[4rem] md:bg-none md:px-16 md:py-16"
 						}
 					>
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4">
 							<h1 className="text-xl font-bold uppercase md:text-2xl lg:text-4xl">
 								The Story
 							</h1>
-							<p className="text-lg md:text-xl">
+							<p className="text-center text-lg md:text-start md:text-xl">
 								In the lands of Happiness, even normal folks
 								live like demigods. Because of the blessings
 								they receive from the Vitamin Gods, they are

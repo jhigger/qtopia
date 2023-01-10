@@ -66,7 +66,7 @@ const Navbar = () => {
 								<li>
 									<Link
 										href="https://whitepaper.qtopia.io/"
-										className={`gradient rounded-full px-4 py-2 text-sm tracking-wide transition-all hover:bg-[#14a8e8] hover:text-white xl:text-base`}
+										className={`rounded-full bg-[#fc8a32] px-4 py-2 text-sm tracking-wide transition-all hover:bg-[#14a8e8] hover:text-white xl:text-base`}
 										target="_blank"
 										rel="noopener noreferrer"
 									>
