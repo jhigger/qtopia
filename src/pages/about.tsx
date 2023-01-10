@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AboutPage = () => {
 	return (
-		<div className="bg-[url('/assets/BG_1920X1080.jpg')] bg-contain font-montserrat">
+		<div className="min-h-screen bg-[url('/assets/BG_1920X1080.jpg')] bg-contain font-montserrat">
 			<Head>
 				<title>Qtopia | Lore</title>
 			</Head>

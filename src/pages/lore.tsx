@@ -8,16 +8,16 @@ const LorePage = () => {
 				<title>Qtopia | Lore</title>
 			</Head>
 
-			<div className="h-full w-full">
-				<Image
-					src={"/assets/1920X1080_Qtopia_vitagods_v2.png"}
-					alt={"vitagods"}
-					width="1920"
-					height="1080"
-					loading="eager"
-					priority
-				/>
-			</div>
+			<Image
+				src={"/assets/1920X1080_Qtopia_vitagods_v2.png"}
+				alt={"vitagods"}
+				width="1920"
+				height="1080"
+				loading="eager"
+				priority
+				className="h-full w-full"
+			/>
+
 			<main className="container mx-auto w-full">
 				<section className="-mt-20 flex justify-center px-6">
 					<div className="w-max rounded-3xl bg-white py-8 px-16 text-[#2f2e2e]">

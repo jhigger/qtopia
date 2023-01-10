@@ -70,7 +70,7 @@ const ImagineVersePage = () => {
 					<div className="grid grid-cols-1 place-items-center gap-4 py-24 md:grid-cols-2">
 						<Image
 							src={"/assets/Door Illustration v3-01.png"}
-							alt={"underwater"}
+							alt={"Door Illustration"}
 							width="700"
 							height="700"
 							loading="eager"
@@ -124,7 +124,7 @@ const ImagineVersePage = () => {
 						</div>
 						<Image
 							src={"/assets/10X10_Pirate-Island-v4.png"}
-							alt={"underwater"}
+							alt={"Pirate-Island"}
 							width="700"
 							height="700"
 							loading="eager"
