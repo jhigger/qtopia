@@ -19,7 +19,7 @@ const HeroImage = () => {
 					/>
 				</video>
 				{/* <div className="mask-image absolute bottom-0 left-0 z-10 h-48 w-full bg-[url('/assets/BG_1920X1080.jpg')] bg-cover bg-center bg-repeat-x"></div> */}
-				<div className="absolute top-0 left-0 h-full w-full bg-gradient-to-b from-transparent to-[#14a8e8]"></div>
+				<div className="absolute top-0 left-0 h-full w-full bg-gradient-to-b from-transparent to-[#14a8e8] opacity-80"></div>
 			</div>
 		</div>
 	);

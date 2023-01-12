@@ -14,7 +14,7 @@ const Navbar = () => {
 		{ name: "Vision", link: "/vision" },
 		{ name: "Imagineverse", link: "/imagineverse" },
 		{ name: "Lore", link: "/lore" },
-		{ name: "About", link: "/about" },
+		{ name: "Team", link: "/team" },
 	];
 	const externalLinks = [
 		{

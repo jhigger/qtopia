@@ -5,7 +5,7 @@ const AboutPage = () => {
 	return (
 		<div className="min-h-screen bg-[url('/assets/BG_1920X1080.jpg')] bg-contain font-montserrat">
 			<Head>
-				<title>Qtopia | Lore</title>
+				<title>Qtopia | Team</title>
 			</Head>
 
 			<main className="container mx-auto w-full py-32">
