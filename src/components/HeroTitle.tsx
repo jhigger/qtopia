@@ -1,18 +1,10 @@
-import CTA from "../components/CTA";
-
 const HeroTitle = () => {
 	return (
-		<section className="-mt-32 flex justify-center">
-			<div className="z-10 grid w-max grid-cols-1 rounded-3xl bg-white p-8 text-xl text-white">
-				<div className="text-center font-montserrat text-3xl font-bold uppercase text-[#2f2e2e] md:text-5xl xl:text-6xl">
-					<h1 className="leading-wide pb-4 font-bold">Qtopia:</h1>
-					<p className="text-xl md:text-3xl xl:text-4xl">
-						Social-Gamefi Ecosystem
-					</p>
-				</div>
-				<CTA />
-			</div>
-		</section>
+		<div className="relative z-10 grid grid-cols-1 px-6 pb-8 text-xl text-white md:px-6 lg:grid-cols-2">
+			<h1 className="text-center font-montserrat text-3xl font-bold uppercase tracking-wider md:text-start md:text-5xl xl:text-6xl">
+				Social-Gamefi Ecosystem
+			</h1>
+		</div>
 	);
 };
 

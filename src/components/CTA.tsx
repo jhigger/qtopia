@@ -20,8 +20,8 @@ const CTA = () => {
 	];
 
 	return (
-		<div className="w-full max-w-screen-xl p-4 text-[#2f2e2e]">
-			<ul className="mt-4 flex flex-col items-center justify-center gap-4 md:flex-row">
+		<div className="w-full max-w-screen-xl p-6 text-white">
+			<ul className="flex flex-col items-center gap-4 md:flex-row">
 				{iconLinks.map((item, idx) => {
 					return (
 						<li
@@ -34,7 +34,7 @@ const CTA = () => {
 								className="flex items-center justify-start gap-4 px-4 py-2 md:justify-center"
 							>
 								<div className="py-2">{item.icon}</div>
-								<span className="text-base uppercase">
+								<span className="text-base uppercase md:text-xl">
 									{item.name}
 								</span>
 							</a>
