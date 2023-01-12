@@ -70,7 +70,7 @@ const AboutPage = () => {
 										Onyx Gallegos
 									</h2>
 									<p className="text-xl font-semibold">
-										Head of GrowthExecution
+										Head of Growth
 									</p>
 								</div>
 								<p className="text-lg md:text-xl">

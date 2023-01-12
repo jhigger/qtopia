@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import { FaTwitter, FaDiscord } from "react-icons/fa";
 
 const Navbar = () => {
 	const router = useRouter();
@@ -14,13 +15,26 @@ const Navbar = () => {
 		{ name: "Imagineverse", link: "/imagineverse" },
 		{ name: "Lore", link: "/lore" },
 		{ name: "About", link: "/about" },
-		// { name: "Contact", link: "/contact" },
+	];
+	const externalLinks = [
+		{
+			link: "https://whitepaper.qtopia.io",
+			name: "Whitepaper",
+		},
+		{
+			link: "https://twitter.com/QtopiaNFT",
+			name: "Twitter",
+		},
+		{
+			link: "https://discord.com/invite/qtopia",
+			name: "Discord",
+		},
 	];
 
 	return (
 		<nav className="container sticky top-0 z-20 mx-auto w-full">
 			<div className="absolute mt-6 w-full">
-				<div className="flex flex-row justify-between gap-2 px-4 md:items-center">
+				<div className="flex flex-row justify-between gap-2 px-4 lg:items-center">
 					<Logo />
 					<div
 						className={`rounded-3xl bg-[#2f2e2e] p-2 ${
@@ -29,7 +43,7 @@ const Navbar = () => {
 					>
 						{/* mobile */}
 						<ul className="flex flex-col items-center justify-center gap-4 p-4 text-white">
-							{navItems.map((item, idx) => {
+							{navItems.concat(externalLinks).map((item, idx) => {
 								return (
 									<li key={idx}>
 										<NavLink
@@ -41,7 +55,7 @@ const Navbar = () => {
 							})}
 						</ul>
 					</div>
-					<div className="h-16 w-16  rounded-full bg-[#2f2e2e] sm:hidden">
+					<div className="h-16 w-16  rounded-full bg-[#2f2e2e] lg:hidden">
 						<button
 							className="flex transform items-center justify-center p-2 text-white transition duration-300 ease-in-out hover:scale-105 hover:text-[#14a8e8] focus:outline-none"
 							onClick={() => setState(!state)}
@@ -49,7 +63,7 @@ const Navbar = () => {
 							{state ? <CloseIcon /> : <MenuIcon />}
 						</button>
 					</div>
-					<div className="pointer-events-auto ml-auto hidden font-montserrat uppercase sm:flex">
+					<div className="pointer-events-auto ml-auto hidden font-montserrat uppercase lg:flex">
 						<NavItemContainer>
 							<ul className="my-auto mx-4 flex h-full items-center gap-2 align-middle">
 								{navItems.map((item) => {
@@ -71,6 +85,26 @@ const Navbar = () => {
 										rel="noopener noreferrer"
 									>
 										Whitepaper
+									</Link>
+								</li>
+								<li>
+									<Link
+										href="https://twitter.com/QtopiaNFT"
+										className={`inline rounded-full bg-[#00acee] px-4 py-2 text-sm tracking-wide transition-all hover:bg-[#fc8a32] hover:text-white xl:text-base`}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<FaTwitter className="inline" />
+									</Link>
+								</li>
+								<li>
+									<Link
+										href="https://twitter.com/QtopiaNFT"
+										className={`inline rounded-full bg-[#7289da] px-4 py-2 text-sm tracking-wide transition-all hover:bg-[#fc8a32] hover:text-white xl:text-base`}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<FaDiscord className="inline" />
 									</Link>
 								</li>
 							</ul>
