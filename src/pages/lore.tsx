@@ -21,7 +21,7 @@ const LorePage = () => {
 			<main className="container mx-auto w-full">
 				<section className="-mt-20 flex justify-center px-6">
 					<div className="w-max rounded-3xl bg-white py-8 px-16 text-[#2f2e2e]">
-						<div className="flex flex-col items-center gap-4 text-center font-montserrat md:text-left">
+						<div className="flex flex-col items-center gap-4 text-center font-owl md:text-left">
 							<h1 className="text-4xl font-bold uppercase">
 								Let there be happiness
 							</h1>
@@ -37,7 +37,7 @@ const LorePage = () => {
 						}
 					>
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4">
-							<h1 className="text-xl font-bold uppercase md:text-2xl lg:text-4xl">
+							<h1 className="font-owl text-xl font-bold uppercase md:text-2xl lg:text-4xl">
 								The Story
 							</h1>
 							<p className="text-center text-lg md:text-start md:text-xl">
@@ -62,7 +62,7 @@ const LorePage = () => {
 								className="z-10 w-full justify-self-center rounded-3xl"
 							/>
 							<div className="flex flex-col gap-8 text-center">
-								<h2 className="text-lg font-bold uppercase md:text-xl lg:text-3xl">
+								<h2 className="font-owl text-lg font-bold uppercase md:text-xl lg:text-3xl">
 									The Vitamin Gods
 								</h2>
 								<p className="text-lg md:text-xl">
@@ -102,7 +102,7 @@ const LorePage = () => {
 								className="z-10 justify-self-end rounded-3xl"
 							/>
 							<div className="flex flex-col gap-8 text-center">
-								<h2 className="text-lg font-bold uppercase md:text-xl lg:text-3xl">
+								<h2 className="font-owl text-lg font-bold uppercase md:text-xl lg:text-3xl">
 									The Civil War
 								</h2>
 								<p className="text-lg md:text-xl">
@@ -131,7 +131,7 @@ const LorePage = () => {
 
 						<section className="grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
 							<div className="flex flex-col gap-8 text-center">
-								<h2 className="text-lg font-bold uppercase md:text-xl lg:text-3xl">
+								<h2 className="font-owl text-lg font-bold uppercase md:text-xl lg:text-3xl">
 									The Heroes
 								</h2>
 								<p className="text-lg md:text-xl">

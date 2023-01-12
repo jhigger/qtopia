@@ -26,7 +26,7 @@ const ImagineVersePage = () => {
 
 			<div className="container mx-auto -mt-14 flex w-full justify-center px-4">
 				<div className="z-10 w-max rounded-3xl bg-white p-8">
-					<h1 className="text-center font-montserrat text-4xl font-bold uppercase text-[#2f2e2e] ">
+					<h1 className="text-center font-owl text-4xl font-bold uppercase text-[#2f2e2e] ">
 						Welcome to Imagineverse
 					</h1>
 				</div>

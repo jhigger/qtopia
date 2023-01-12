@@ -16,7 +16,7 @@ const VisionPage = () => {
 						}
 					>
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4">
-							<h1 className="text-xl font-bold uppercase md:text-2xl lg:text-4xl">
+							<h1 className="font-owl text-xl font-bold uppercase md:text-2xl lg:text-4xl">
 								Our Vision
 							</h1>
 							<p className="text-lg md:text-xl">
@@ -26,14 +26,14 @@ const VisionPage = () => {
 								game and animation series, as well as collect
 								limited-edition real-world merchandise!
 							</p>
-							<p className="text-lg font-bold uppercase text-[#14a8e8] md:text-xl lg:text-3xl">
+							<p className="font-owl text-lg font-bold uppercase text-[#14a8e8] md:text-xl lg:text-3xl">
 								Love, Imagination, and Happiness for all!
 							</p>
 						</section>
 
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
 							<div className="flex flex-col gap-8 text-center">
-								<h2 className="text-lg font-bold uppercase md:text-xl lg:text-3xl">
+								<h2 className="font-owl text-lg font-bold uppercase md:text-xl lg:text-3xl">
 									Play To Own Game
 								</h2>
 								<p className="text-lg md:text-xl">
@@ -80,7 +80,7 @@ const VisionPage = () => {
 								className="z-10 justify-self-end rounded-3xl"
 							/>
 							<div className="flex flex-col gap-8 text-center">
-								<h2 className="text-lg font-bold uppercase md:text-xl lg:text-3xl">
+								<h2 className="font-owl text-lg font-bold uppercase md:text-xl lg:text-3xl">
 									Welcome to The ImagineVerse
 								</h2>
 								<p className="text-lg md:text-xl">
@@ -108,19 +108,12 @@ const VisionPage = () => {
 
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
 							<div className="flex flex-col gap-8 text-center">
-								<h2 className="text-lg font-bold uppercase md:text-xl lg:text-3xl">
+								<h2 className="font-owl text-lg font-bold uppercase md:text-xl lg:text-3xl">
 									Merchandise
 								</h2>
 								<p className="text-lg md:text-xl">
-									Qtopia is teaming up with NoNoPanda to
-									create a series of merchandise. NoNoPanda
-									has worked with top brands around the world
-									designing dolls, collectables, hardware,
-									stationary, emoticons and more. Holders of
-									our NFT will gain exclusive rights to
-									purchase with our token. Holders of the
-									special Genesis NFT will have access to the
-									limited Genesis edition.
+									Holders of the special Genesis NFT will have
+									access to the limited Genesis edition.
 								</p>
 								<div className="flex items-center justify-center">
 									<button className="rounded-full py-2 px-8 text-xl uppercase text-[#14a8e8] ring-2 ring-[#14a8e8] hover:bg-[#14a8e8] hover:text-white hover:ring-white">
@@ -158,15 +151,15 @@ const VisionPage = () => {
 								className="z-10 justify-self-end rounded-3xl"
 							/>
 							<div className="flex flex-col gap-8 text-center">
-								<h2 className="text-lg font-bold uppercase md:text-xl lg:text-3xl">
+								<h2 className="font-owl text-lg font-bold uppercase md:text-xl lg:text-3xl">
 									Animation Series
 								</h2>
 								<p className="text-lg md:text-xl">
 									With an experienced leadership team from
-									DreamWorks and Tappy Yoka, we want to create
-									top-quality animated content aimed to
-									impress and entertain. NFT holders will gain
-									special rights to be involved in the content
+									Tappy Yoka, we want to create top-quality
+									animated content aimed to impress and
+									entertain. NFT holders will gain special
+									rights to be involved in the content
 									creation process.
 								</p>
 								<div className="flex items-center justify-center">

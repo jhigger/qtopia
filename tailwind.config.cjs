@@ -4,6 +4,7 @@ module.exports = {
 	theme: {
 		fontFamily: {
 			montserrat: ["Montserrat", "Sans-serif"],
+			owl: ["Owl Cute", "Sans-serif"],
 		},
 		extend: {},
 	},

@@ -12,7 +12,7 @@ const AboutPage = () => {
 				<div className="px-6 py-6 md:px-12 md:py-12">
 					<div className="my-2 w-full rounded-3xl bg-white bg-right-bottom p-8 text-[#2f2e2e] md:rounded-[4rem] md:bg-none md:p-16">
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4">
-							<h1 className="text-xl font-bold uppercase md:text-2xl lg:text-4xl">
+							<h1 className="font-owl text-xl font-bold uppercase md:text-2xl lg:text-4xl">
 								About Our Team
 							</h1>
 						</section>
@@ -30,7 +30,7 @@ const AboutPage = () => {
 										className="col-span-1 rounded-3xl"
 									/>
 									<div className="col-span-1">
-										<h2 className="text-xl font-bold uppercase lg:text-3xl">
+										<h2 className="font-owl text-xl font-bold uppercase lg:text-3xl">
 											Daniel Chou
 										</h2>
 										<p className="text-xl font-semibold">
@@ -66,7 +66,7 @@ const AboutPage = () => {
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4">
 							<div className="flex flex-col gap-8 text-center">
 								<div>
-									<h2 className="text-xl font-bold uppercase lg:text-3xl">
+									<h2 className="font-owl text-xl font-bold uppercase lg:text-3xl">
 										Onyx Gallegos
 									</h2>
 									<p className="text-xl font-semibold">
@@ -94,7 +94,7 @@ const AboutPage = () => {
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4">
 							<div className="flex flex-col gap-8 text-center">
 								<div>
-									<h2 className="text-xl font-bold uppercase lg:text-3xl">
+									<h2 className="font-owl text-xl font-bold uppercase lg:text-3xl">
 										The Qtopia Heroes
 									</h2>
 									<p className="text-xl font-semibold">

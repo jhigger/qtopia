@@ -34,7 +34,7 @@ const CTA = () => {
 								className="flex items-center justify-start gap-4 px-4 py-2 md:justify-center"
 							>
 								<div className="py-2">{item.icon}</div>
-								<span className="text-base uppercase md:text-xl">
+								<span className="font-owl text-base uppercase md:text-xl">
 									{item.name}
 								</span>
 							</a>

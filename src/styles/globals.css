@@ -6,6 +6,12 @@
 	html {
 		@apply text-[#2f2e2e];
 	}
+
+	@font-face {
+		font-family: Owl Cute;
+		font-weight: 400;
+		src: url("/assets/font/Owl Cute.ttf") format("truetype");
+	}
 }
 
 @layer utilities {
