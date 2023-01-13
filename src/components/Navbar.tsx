@@ -99,7 +99,7 @@ const Navbar = () => {
 								</li>
 								<li>
 									<Link
-										href="https://twitter.com/QtopiaNFT"
+										href="https://discord.com/invite/qtopia"
 										className={`inline rounded-full bg-[#7289da] px-4 py-2 text-sm tracking-wide transition-all hover:bg-[#fc8a32] hover:text-white xl:text-base`}
 										target="_blank"
 										rel="noopener noreferrer"

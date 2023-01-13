@@ -34,7 +34,7 @@ const ImagineVersePage = () => {
 			<section className="relative -mt-8 overflow-visible px-4">
 				<div className="container mx-auto w-full md:h-[44rem]">
 					<div className="grid grid-cols-1 place-items-center gap-4 py-24 md:grid-cols-2">
-						<div>
+						<div className="order-last md:-order-last">
 							<h3 className="my-4 p-4 text-2xl">
 								Have a land of your own. Design, decorate,{" "}
 								<br /> and host events! Random surprises awaits{" "}
@@ -103,7 +103,7 @@ const ImagineVersePage = () => {
 			<section className="relative px-4">
 				<div className="container mx-auto w-full md:h-[44rem]">
 					<div className="grid grid-cols-1 place-items-center gap-4 pt-24 md:grid-cols-2">
-						<div>
+						<div className="order-last md:-order-last">
 							<h3 className="my-4 p-4 text-2xl">
 								Special-themed guild halls for 40-60 <br />{" "}
 								players to socialize, prepare for <br /> guild

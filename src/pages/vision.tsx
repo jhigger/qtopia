@@ -32,7 +32,7 @@ const VisionPage = () => {
 						</section>
 
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
-							<div className="flex flex-col gap-8 text-center">
+							<div className="order-last flex flex-col gap-8 text-center md:-order-last">
 								<h2 className="font-owl text-lg font-bold uppercase md:text-xl lg:text-3xl">
 									Play To Own Game
 								</h2>
@@ -107,7 +107,7 @@ const VisionPage = () => {
 						</section>
 
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4 md:grid-cols-2">
-							<div className="flex flex-col gap-8 text-center">
+							<div className="order-last flex flex-col gap-8 text-center md:-order-last">
 								<h2 className="font-owl text-lg font-bold uppercase md:text-xl lg:text-3xl">
 									Merchandise
 								</h2>
