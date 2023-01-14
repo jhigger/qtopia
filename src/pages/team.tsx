@@ -19,7 +19,7 @@ const AboutPage = () => {
 
 						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4">
 							<div className="flex flex-col gap-8 text-center">
-								<div className="grid grid-cols-1 place-items-center items-center gap-8 md:grid-cols-2">
+								<div className="grid grid-cols-1 place-items-center items-center gap-8">
 									<Image
 										src={"/assets/about/daniel_chou.jpg"}
 										alt={"daniel_chou"}
@@ -27,9 +27,9 @@ const AboutPage = () => {
 										height="400"
 										loading="eager"
 										priority
-										className="col-span-1 rounded-3xl md:place-self-end"
+										className="col-span-1 rounded-3xl"
 									/>
-									<div className="col-span-1 md:justify-self-start">
+									<div className="col-span-1">
 										<h2 className="font-owl text-xl font-bold uppercase lg:text-3xl">
 											Daniel Chou
 										</h2>
