@@ -27,9 +27,9 @@ const AboutPage = () => {
 										height="400"
 										loading="eager"
 										priority
-										className="col-span-1 rounded-3xl"
+										className="col-span-1 rounded-3xl md:place-self-end"
 									/>
-									<div className="col-span-1">
+									<div className="col-span-1 md:justify-self-start">
 										<h2 className="font-owl text-xl font-bold uppercase lg:text-3xl">
 											Daniel Chou
 										</h2>
