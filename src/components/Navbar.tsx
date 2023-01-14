@@ -133,7 +133,7 @@ const Logo = () => {
 		<Link href="/">
 			<img
 				className="h-16 w-auto md:h-24"
-				src="/assets/logo.png"
+				src="/assets/500X500_Phoebe_Logo_Gradient_with_outline.png"
 				alt="Qtopia Logo"
 			/>
 		</Link>
