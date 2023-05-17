@@ -18,6 +18,10 @@ const Navbar = () => {
 	];
 	const externalLinks = [
 		{
+			link: "https://missions.qtopia.io/",
+			name: "Missions",
+		},
+		{
 			link: "https://whitepaper.qtopia.io",
 			name: "Whitepaper",
 		},
@@ -77,6 +81,16 @@ const Navbar = () => {
 										</li>
 									);
 								})}
+								<li>
+									<Link
+										href="https://missions.qtopia.io/"
+										className={`rounded-full bg-[#e82d7f] px-4 py-2 text-sm tracking-wide transition-all hover:bg-[#14a8e8] hover:text-white xl:text-base`}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Missions
+									</Link>
+								</li>
 								<li>
 									<Link
 										href="https://whitepaper.qtopia.io/"
