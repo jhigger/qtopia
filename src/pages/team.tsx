@@ -67,29 +67,6 @@ const AboutPage = () => {
 							<div className="flex flex-col gap-8 text-center">
 								<div>
 									<h2 className="font-owl text-xl font-bold uppercase lg:text-3xl">
-										Hunt
-									</h2>
-									<p className="text-xl font-semibold">
-										Head of Growth
-									</p>
-								</div>
-								<p className="text-lg md:text-xl">
-									Hunt is a web3-native entrepreneur who has
-									launched multiple sold-out NFTs. With hunt
-									at the helm of expansion, our growth tools
-									help us explosively grow the Qtopia
-									community from 0 to 37,000 verified users in
-									just one week. Hunt&apos;s expertise and
-									track record make him a valuable asset to
-									the Qtopia team and community.
-								</p>
-							</div>
-						</section>
-
-						<section className="mb-8 grid grid-cols-1 place-items-center gap-8 py-4">
-							<div className="flex flex-col gap-8 text-center">
-								<div>
-									<h2 className="font-owl text-xl font-bold uppercase lg:text-3xl">
 										The Qtopia Heroes
 									</h2>
 									<p className="text-xl font-semibold">
