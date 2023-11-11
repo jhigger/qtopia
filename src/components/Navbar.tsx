@@ -22,10 +22,6 @@ const Navbar = () => {
 			name: "Missions",
 		},
 		{
-			link: "https://whitepaper.qtopia.io",
-			name: "Whitepaper",
-		},
-		{
 			link: "https://twitter.com/QtopiaNFT",
 			name: "Twitter",
 		},
