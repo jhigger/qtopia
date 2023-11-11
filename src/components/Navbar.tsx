@@ -89,16 +89,6 @@ const Navbar = () => {
 								</li>
 								<li>
 									<Link
-										href="https://whitepaper.qtopia.io/"
-										className={`rounded-full bg-[#fc8a32] px-4 py-2 text-sm tracking-wide transition-all hover:bg-[#14a8e8] hover:text-white xl:text-base`}
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										Whitepaper
-									</Link>
-								</li>
-								<li>
-									<Link
 										href="https://twitter.com/QtopiaNFT"
 										className={`inline rounded-full bg-[#00acee] px-4 py-2 text-sm tracking-wide transition-all hover:bg-[#fc8a32] hover:text-white xl:text-base`}
 										target="_blank"
